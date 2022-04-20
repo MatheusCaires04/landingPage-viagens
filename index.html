@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>Bini Viagens</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img
+            src="images/logo-plane.svg"
+            alt="Ícone da logo em formato de avião"
+          />
+        </div>
+        <div class="menu">
+          <nav>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Pacotes</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">FAQ</a></li>
+          </nav>
+        </div>
+        <div class="container__btn__register">
+          <button class="btn__register">Cadastrar</button>
+        </div>
+        <div class="menu__hamburguer">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+      </header>
+      <main>
+        <div class="title">
+          <h1>Making the world your playground.</h1>
+          <h3>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non
+            eligendi, architecto est totam asperiores obcaecati minima pariatur
+            quibusdam neque at magni sapiente iusto voluptate magnam consectetur
+            illum culpa impedit maxime!
+          </h3>
+        </div>
+        <div class="search">
+          <form class="form__search">
+            <div class="options" id="locations">
+              <label>Localização</label>
+              <select name="Select" id="">
+                <option value="Value1">Localização</option>
+              </select>
+            </div>
+            <div class="options" id="hotel">
+              <label>Tipo de hotel</label>
+              <select name="Select" id="hotel">
+                <option value="Value2">Tipo de hotel</option>
+              </select>
+            </div>
+            <div class="options" id="range">
+              <label>Escolha a data</label>
+              <input type="date" name="date" id="date" />
+            </div>
+          </form>
+          <div class="container__btn__search">
+            <buttton class="btn__search">
+              <img src="images/icon-search.svg" alt="Ícone de pesquisa" />
+            </buttton>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="menu.js"></script>
+  </body>
+</html>
